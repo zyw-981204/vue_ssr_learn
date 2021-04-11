@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "test": "nodemon './universalCode/server.js'"
+  },
+  "name": "vue_ssr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~4.5.0",
+    "express": "^4.17.1",
+    "koa": "^2.13.1",
+    "serve-favicon": "^2.5.0",
+    "vue": "^2.6.12",
+    "vue-server-renderer": "^2.6.12"
+  }
+}
